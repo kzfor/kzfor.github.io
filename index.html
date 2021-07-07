@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт памяти Юрия Степановича Рыбникова.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container d-flex flex-column">
+        <section class="clock">
+            <h2 id="normalClock"></h2>
+            <span id="ancientRusClock"></span>
+        </section>
+        <section class="p-5 info d-flex justify-content-between">
+            <div class="w-100">
+                <h2>Числа древних русов</h2>
+                <ol start="0">
+                    <li>НОЛЬ</li>
+                    <li>ЦЕЛКОВЫЙ</li>
+                    <li>ПОЛУШКА</li>
+                    <li>ЧЕТВЕРТУШКА</li>
+                    <li>ОСЬМУШКА</li>
+                    <li>ПУДОВИЧОК</li>
+                    <li>МЕДЯЧОК</li>
+                    <li>СЕРЕБРЯЧОК</li>
+                    <li>ЗОЛОТНИЧОК</li>
+                    <li>ДЕВЯТИЧОК</li>
+                    <li>ДЕСЯТИЧОК</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Видеоматериалы по теме</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lOgcX_x4cRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mwt6kVR4Yzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="digit-input d-flex flex-column" style="height: 60vh;">
+            <h2 class="align-self-center mb-4">Введите арабское число, чтобы получить число ДРЕВНИХ РУСОВ</h2>
+            <input type="text" id="input" class="mb-3">
+            <span id="zeroes" class="mb-1"></span>
+            <span id="result" class="mb-1"></span>
+        </section>
+    </section>
+    <script src="js/app.js" type="module"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
